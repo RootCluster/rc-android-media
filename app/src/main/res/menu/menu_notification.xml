@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="org.incoder.media.MainActivity">
+
+    <group
+        android:id="@+id/group"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/action_public"
+            android:title="@string/action_notification_public"
+            android:titleCondensed="audio"
+            app:showAsAction="ifRoom" />
+        <item
+            android:id="@+id/action_private"
+            android:title="@string/action_notification_private"
+            app:showAsAction="ifRoom" />
+        <item
+            android:id="@+id/action_secret"
+            android:title="@string/action_notification_secret"
+            app:showAsAction="ifRoom" />
+    </group>
+</menu>

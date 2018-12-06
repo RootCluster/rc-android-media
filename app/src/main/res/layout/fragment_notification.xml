@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".notification.NotificationFragment">
+
+    <Button
+        android:id="@+id/btn_normal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="普通通知" />
+
+    <Button
+        android:id="@+id/btn_fold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="折叠通知" />
+
+    <Button
+        android:id="@+id/btn_rich_media"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="富媒体通知" />
+
+    <View style="@style/base_dashed_line" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="16dp"
+        android:text="实战：轮询发送通知" />
+
+    <Button
+        android:id="@+id/btn_start_loop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="开始轮询" />
+
+    <Button
+        android:id="@+id/btn_end_loop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="结束轮询" />
+
+    <TextView
+        android:id="@+id/tv_loop_log"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

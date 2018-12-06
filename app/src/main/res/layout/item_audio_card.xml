@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cv_content"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:foreground="?android:attr/selectableItemBackground"
+    card_view:cardUseCompatPadding="true"
+    card_view:contentPadding="@dimen/fab_margin">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_file_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:textSize="18sp"
+            tools:ignore="RelativeOverlap"
+            tools:text="文件名" />
+
+        <TextView
+            android:id="@+id/tv_file_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_file_name"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginEnd="4dp"
+            android:layout_marginRight="4dp"
+            tools:text="文件大小：3.2M" />
+
+        <TextView
+            android:id="@+id/tv_audio_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_file_name"
+            android:layout_toEndOf="@+id/tv_file_size"
+            android:layout_toRightOf="@+id/tv_file_size"
+            android:background="@drawable/badge_blue"
+            android:padding="2dp"
+            android:textColor="@android:color/white"
+            android:textSize="10sp"
+            tools:text="系统录制" />
+
+        <ImageView
+            android:id="@+id/iv_item_audio_convert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_repeat_deep_purple_a100"
+            tools:ignore="ContentDescription" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

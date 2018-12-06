@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="line">
+    <!-- 虚线的高度 -->
+    <size android:height="8dp" />
+    <!--width：线条的高度
+        color：颜色-->
+    <stroke
+        android:width="8dp"
+        android:color="@android:color/white" />
+</shape>

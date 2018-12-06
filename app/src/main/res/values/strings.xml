@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Media</string>
+    <string name="app_description">生活不止眼前的苟且</string>
+
+    <string name="action_audio_record">AudioRecord</string>
+    <string name="action_media_recorder">MediaRecorder</string>
+    <string name="action_sound_pool">SoundPool</string>
+
+    <string name="action_notification_public">Public</string>
+    <string name="action_notification_private">Private</string>
+    <string name="action_notification_secret">Secret</string>
+
+    <string name="tab_audio">音频</string>
+    <string name="tab_camera">相机</string>
+    <string name="tab_notification">通知</string>
+    <string name="tab_video">视频</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="radio_high">256kbps,48kHz</string>
+    <string name="radio_mid">128kbps,44.1kHz</string>
+    <string name="radio_low">64kbps,44.1kHz</string>
+    <string name="radio_mp3">mp3</string>
+    <string name="radio_ogg">ogg</string>
+    <string name="radio_amr">amr</string>
+    <string name="radio_m4a">m4a</string>
+    <string name="audio_settings_title">音频录制设置</string>
+    <string name="settings_title_format">设置音频格式：</string>
+    <string name="settings_title_sampling">设置采样率：</string>
+    <string name="btn_start_audio">开始录音</string>
+    <string name="btn_pause_audio">暂停录音</string>
+    <string name="btn_finish_audio">结束录音</string>
+</resources>
